@@ -34,6 +34,10 @@ We sort the array and then take two pointers j and k. j points to the element ne
 the last element. We check if the sum of the three elements is equal to 0. If yes, then we insert the
 triplet in the set. If the sum is greater than 0, then we decrement k. If the sum is less than 0, then
 we increment j. We repeat this process until j is less than k.
+
+Time Complexity: O(n^2) 
+Space Complexity: O(n)
+
 */
 
 class Solution {
